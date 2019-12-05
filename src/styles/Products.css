@@ -1,0 +1,6 @@
+.Products {
+    float: left;
+    width: 33%;
+    border: 1px solid red;
+    text-align: center;
+}
