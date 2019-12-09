@@ -14,11 +14,15 @@ const Users = (props) => {
         )
     };
 
+    const showUsers = index => {
+        props.setVisible(index);
+    };
+
     return(
         <>
             <div className='Users'>
-                <h2 className='section-header' >Users</h2>
-                { renderUsers(users) }
+                <h2 className='section-header' onClick={() => showUsers(0)}>Users</h2>
+                { props.isVisible === 0 ? renderUsers(users) : null }
             </div>
         </>
     )
