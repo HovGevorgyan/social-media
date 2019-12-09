@@ -21,7 +21,7 @@ const Products = (props) => {
 
     return(
         <>
-            <div className="Products">
+            <div className='Products'>
                 <h2 className='section-header' onClick={() => showProducts(1)}>Products</h2>
                 <div>
                     {props.isVisible === 1 ? renderProducts(products) : null}
