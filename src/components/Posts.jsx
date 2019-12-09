@@ -4,7 +4,7 @@ import '../styles/Posts.css'
 const Posts = () => {
     return(
         <div className='Posts'>
-            Posts
+            <h2 className='section-header' onClick={() => console.log(3)}>Posts</h2>
             <div>
                 POstssssss
             </div>
